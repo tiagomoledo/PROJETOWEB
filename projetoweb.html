@@ -1,0 +1,103 @@
+ <!DOCTYPE html>
+ <html lang="en">
+    <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> {
+        margin: 0; 
+        padding: 0;
+         }
+
+#teste{
+  width: 1x;
+  height: 3px;
+  background-image: url(FUNDO.png);
+}
+    .navbar {
+        display: flex;
+        position: sticky; 
+        align-items: center;
+        justify-content: center;
+        top: 0px;
+        cursor: pointer;
+    }
+      
+    .nav-list {
+        width: 200%;
+        display: flex;
+    }
+      
+    .nav-list li {
+        list-style: none;
+        padding: 26px 30px;
+        display: inline;
+    }
+      
+    .nav-list li a {
+        text-decoration: none;
+        color: black ;
+       
+    }
+      
+    .nav-list li a:hover {
+        color: darkblue;
+        display: inline;
+    }
+      
+    .centerNav {
+        width: 50%;
+        text-align: center;
+        display: inline;
+        
+    }
+      
+    #search {
+        padding: 5px;
+        font-size: 17px;
+        border-radius: 9px;
+    }
+    #divBusca{
+        background-color:  grey;
+        border: white;
+        border-radius:20px;
+        width:300px;
+}
+
+    #txtBusca{
+        float:left;
+        background-color: gray;
+        padding-left:10px;
+        font-style:italic;
+        font-size:18px;
+        border: 2px;
+        border-radius: 30px;
+        height:34px;
+        width: 270px;
+}
+         
+         </style>
+    </head>
+        <body>
+            <nav class="navbar background">
+                <ul class="nav-list">
+                    <li><a href="#Contato"><font face = "Arial black">Contato &nbsp;<img src="lupa/ZAPP.png" height="25"> </font></a></li>
+                    <li><a href="#Localização"><font face = "Arial black">Localização</font></a></li>
+                </ul>
+                <div id="divBusca">
+                    <input type="text" id="txtBusca" placeholder="Buscar..."/>
+                  </div>
+            </nav>
+
+            <div align = "center">
+            <img src="lupa/logo.JPG" height="200">
+        </div>
+            <div id="button" align = "center">
+            <div class="button">
+            <input type="button" value="Produtos" >
+        </div>
+            </div>
+
+        </body>
+    </html>
